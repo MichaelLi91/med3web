@@ -1,6 +1,6 @@
-# Med3Web Dicom 2d/3d web viewer.
+#Dicom 2d/3d web viewer(dicom image frames).
 
-Copyright (c) 2015–2018 [EPAM Systems, Inc.](https://www.epam.com/)
+Copyright (c) 2015–2018 [EPAM Systems, Inc.]()
 
 Med3Web is a high performance web tool for advanced visualization (both in 2d and 3d modes)
 medical volumetric data, provided in popular file formats: Dicom, Nifti, Ktx, Hdr.
@@ -11,7 +11,7 @@ It works as a standalone HTML5 web application. The latest version can be used w
 WebGL-enabled desktop browsers (Chrome, Firefox, Safari, Opera) and allow limited usage
 with mobile browsers (Android Chrome).
 
-![Background image](app/images/med3web_logo.png)
+
 
 ## Market evaluation
 
@@ -195,10 +195,3 @@ Loading ratio = 0.04
 ...
 
 ```
-
-
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## License
-Please read [LICENSE](LICENSE) for details.
