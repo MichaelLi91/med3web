@@ -1,7 +1,5 @@
 #Dicom 2d/3d web viewer(dicom image frames).
 
-Copyright (c) 2015–2018 [EPAM Systems, Inc.]()
-
 Med3Web is a high performance web tool for advanced visualization (both in 2d and 3d modes)
 medical volumetric data, provided in popular file formats: Dicom, Nifti, Ktx, Hdr.
 Other popular formats will be planned for future improvements.
@@ -37,7 +35,7 @@ Some JavaScript libraries to work with Dicom file format:
 
 Three.js is used as some gateway to WebGL renderer. The current Three.js version does not support 3d textures,
 so we use tricky way to build 2d texture from initial 3d texture by linking 2d slices all together
-as a large tile map. This idea (with source codes) can be seen in project [WebGL Volume Rendering](https://github.com/lebarba/WebGLVolumeRendering).
+as a large tile map. This idea (with source codes) can be seen in project [WebGL Volume Rendering]
 
 ## Project documentation
 
@@ -167,13 +165,9 @@ Header set Access-Control-Allow-Methods "GET"
 ```
 
 4. Copy your local folder (containing *.dcm, .htaccess, file_lists.txt files) into
-your web server. For example on location: www.mysite.org/med3web/data/lungs
 
 5. Check correct URL and access possibility for just created folder.
-Enter in url line:
-```
-www.mysite.org/med3web/data/lungs/file_list.txt
-```
+
 You should see *.dcm file listing in browser window.
 
 6. Run Med3Web application, hosted on your server (dont use virtual server) and select "File -> Open by URL".
