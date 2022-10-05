@@ -50,11 +50,6 @@ Introduction to the project can be loaded here:
 
 ## Getting started
 
-Load project from git server:
-```
-git clone https://github.com/epam/med3web.git
-```
-
 Start operations in order to load all required Node.js packages:
 ```
 cd med3web
